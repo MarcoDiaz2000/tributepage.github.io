@@ -1,11 +1,14 @@
+
+
 :root {
     --blue: rgb(92, 92, 207);
-    --white: rgb(241, 237, 237);
+    --background: rgb(214, 211, 232);
 }
 
 
+
 * {
-    background-color: var(--white);
+    background-color: var(--background);
 }
 
 #image-container {
@@ -20,3 +23,42 @@
     max-width: 100%; 
     height: auto;
 }
+#main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1, #img-caption {
+    width: 100vw;
+    justify-content: center;
+    text-align: center;
+    font-size: 3em;
+}
+
+#img-caption {
+    font-size: 1.5em;
+}
+
+
+
+
+
+#tribute-info {
+    justify-content: center;
+    text-align: justify;
+    padding: 0 100px;
+    
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: red;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
